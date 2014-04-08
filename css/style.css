@@ -1,0 +1,38 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+}
+
+
+h1 {
+  color: blue;
+  background-color: black;
+  padding: 10px 20px 10px 0px;
+  border: 1.5px solid blue;
+  border-radius: 30px;
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+h4 {
+  color: blue;
+  background-color: black;
+  border: 1.5px solid blue;
+  border-radius: 30px;
+  font-family: 'Amarante', cursive;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  width: 30%;
+  margin: auto;
+}
+
+li  {
+  color: blue;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'Patrick Hand SC', cursive;
+  text-align: center;
+  border-radius: 30px;
+}
