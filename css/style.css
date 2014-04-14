@@ -51,6 +51,7 @@ nav li  {
   border-radius: 10px;
   margin: 5px 0px;
   padding: 5px;
+  max-width: 1000px;
 }
 
 .section h3 {
@@ -66,6 +67,10 @@ nav li  {
 img {
   border: 3px solid black;
   border-radius: 5px;
+}
+
+.date {
+  float: right;
 }
 
 a {
