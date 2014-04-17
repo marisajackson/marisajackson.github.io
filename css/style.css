@@ -41,6 +41,39 @@ nav li  {
 
 /*
 ***********************
+* =sidebar
+***********************
+*/
+
+#sidebar {
+  float: right;
+  width: 25%;
+  margin: 5px 0px 0px -2px;
+}
+
+#sidebar #inner {
+  position: fixed;
+  border: 1.5px solid #A63CD4;
+  border-radius: 10px;
+  width: 25%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  padding-left: 5px;
+}
+
+#sidebar li {
+  margin-bottom: 4px;
+}
+
+#sidebar h2 {
+  background-color: #7908aa;
+  margin-bottom: 0;
+}
+
+/*
+***********************
 * =section
 ***********************
 */
@@ -49,9 +82,9 @@ nav li  {
   background-color: #64247F;
   border: 1.5px solid #A63CD4;
   border-radius: 10px;
-  margin: 5px 0px;
+  width: 73%;
+  margin: 5px 5px 5px 0px;
   padding: 5px;
-  max-width: 1000px;
 }
 
 .section h3 {
@@ -61,12 +94,13 @@ nav li  {
 }
 
 .section p {
-  margin-left: 50px;
+  margin-left: 5px;
 }
 
 img {
   border: 3px solid black;
   border-radius: 5px;
+  max-width: 95%;
 }
 
 .date {
