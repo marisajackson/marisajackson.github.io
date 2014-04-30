@@ -78,13 +78,24 @@ nav li  {
 ***********************
 */
 
+.rows {
+  width: 75%;
+  display: inline-block;
+  float: left;
+  margin: 0px;
+}
+
 .section {
   background-color: #64247F;
   border: 1.5px solid #A63CD4;
   border-radius: 10px;
-  width: 73%;
-  margin: 5px 5px 5px 0px;
+  width: 47%;
+  margin: 5px 2px 0px 0px;
   padding: 5px;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  min-height: 100%;
 }
 
 .section h3 {
