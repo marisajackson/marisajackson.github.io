@@ -1,0 +1,45 @@
+nav {
+  background-color: black; }
+
+ul {
+  list-style-type: none;
+  color: white;
+  text-align: right; }
+
+li {
+  display: inline-block;
+  margin: 10px; }
+
+#projects {
+  margin: auto; }
+
+.project {
+  height: 269px;
+  width: 269px;
+  display: inline-block; }
+
+.project-containter {
+  height: 269px;
+  width: 269px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition-duration: 0.5s;
+  transform-origin: center center; }
+
+.front, .back {
+  height: 269px;
+  width: 269px;
+  backface-visibility: hidden;
+  position: absolute; }
+
+.front {
+  z-index: 3; }
+
+.back {
+  transform: rotateY(180deg); }
+
+.project-containter:hover, .active {
+  transform: rotateY(180deg); }
+
+.project:hover .project-container {
+  transform: rotateY(180deg); }
