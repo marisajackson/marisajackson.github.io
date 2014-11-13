@@ -19,12 +19,20 @@
     };
   }]);
 
-  app.directive('project', [function(){
+  app.directive('portfolionav', [function(){
     return {
       restrict: 'E',
-      templateUrl: 'partials/project.html'
+      templateUrl: 'partials/portfolio-nav.html',
+      controller: 'projectCtrl'
     };
   }]);
+
+  // app.directive('project', [function(){
+  //   return {
+  //     restrict: 'E',
+  //     templateUrl: 'partials/project.html'
+  //   };
+  // }]);
 
   // app.controller('projectCtrl', ['projectFactory', '$scope', function(projectFactory, $scope){
   app.controller('projectCtrl', ['$scope', '$http', function($scope, $http){

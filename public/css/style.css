@@ -11,24 +11,27 @@ li {
   margin: 10px; }
 
 #projects {
-  margin: auto; }
+  margin: auto;
+  width: 100%; }
 
 .project {
   height: 269px;
-  width: 269px;
+  width: 20%;
   display: inline-block; }
+  .project h1 {
+    text-align: center; }
 
 .project-containter {
-  height: 269px;
-  width: 269px;
+  height: 100%;
+  width: 100%;
   position: relative;
   transform-style: preserve-3d;
   transition-duration: 0.5s;
   transform-origin: center center; }
 
 .front, .back {
-  height: 269px;
-  width: 269px;
+  height: 100%;
+  width: 100%;
   backface-visibility: hidden;
   position: absolute; }
 
