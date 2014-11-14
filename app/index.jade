@@ -8,5 +8,11 @@ body
 
   portfolionav
 
+  #project(ng-controller='portfolioCtrl as portfolio')
+    .project(ng-repeat='project in portfolio.projects' ng-show='portfolio.checkProject($index)')
+      h1 {{project.name}}
+
+
 script(src='js/vendor/angular/angular.min.js')
+script(src='js/vendor/angular-sanitize/angular-sanitize.min.js')
 script(src='js/app.js')

@@ -1,12 +1,12 @@
 nav {
   background-color: black; }
 
-ul {
+nav ul {
   list-style-type: none;
   color: white;
   text-align: right; }
 
-li {
+nav li {
   display: inline-block;
   margin: 10px; }
 
@@ -14,11 +14,11 @@ li {
   margin: auto;
   width: 100%; }
 
-.project {
+.project-nav-icon {
   height: 269px;
   width: 20%;
   display: inline-block; }
-  .project h1 {
+  .project-nav-icon h1 {
     text-align: center; }
 
 .project-containter {
@@ -46,3 +46,22 @@ li {
 
 .project:hover .project-container {
   transform: rotateY(180deg); }
+
+.project-main, .description {
+  display: inline-block;
+  width: 48%;
+  height: 400px;
+  padding: 10px;
+  vertical-align: middle; }
+  .project-main img, .description img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.description {
+  font-size: 32px; }
+  .description p {
+    margin-bottom: 0; }
+  .description ul {
+    margin: 0; }
+  .description p:last-child {
+    margin: 0; }
