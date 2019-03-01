@@ -7289,3 +7289,7 @@ a.credit {
 .job-title {
   text-align: center !important;
 }
+
+#skill i.fab {
+    margin-right: 20px;
+}
